@@ -3,12 +3,14 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "server" : "nodemon http.js"
   },
   "author": "maninder singh",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "colors": "^1.4.0"
+    "colors": "^1.4.0",
+    "nodemon": "^3.1.9"
   }
 }
